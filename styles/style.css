@@ -1,0 +1,30 @@
+/* section game */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+#gameSpace {
+    height: 300px;
+    width: 700px;
+    /* background-color: gray; */
+    font-size: 0;
+
+    /* elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* floor */
+#floor {
+    background-image: url('../Assets/Images/floor.jpeg');
+    height: 25px;
+    width: 1000px;
+    display: flex;
+    margin-top: 300px;
+    position: relative;
+    background-repeat: repeat-x;
+}
